@@ -6,7 +6,7 @@ export async function fetchCharacters() {
   return characters.results;
 }
 // push note
-//forgot dev again
+//whoops forgot dev again
 
 export async function fetchById(id) {
   const response = await fetch(
